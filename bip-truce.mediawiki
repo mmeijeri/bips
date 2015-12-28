@@ -16,7 +16,7 @@ It is intended to achieve the following goals:
 * Involve both a hard fork and a soft fork.
 * Have continuous, gradual growth instead of big step functions.
 
-It's essentially a combination of a variant of 2-4-8 (necessarily a hard fork) and a soft fork version of Segregated Witness. The advantage of the 2-4-8 hard fork is that it is very simple and can be coded and merged very quickly, probably in January. The SW soft fork on the other hand can probably be activated sooner. Iherefore I'd like to see the hard fork coded, merged and deployed first, then the soft fork merged and deployed and then the hard fork activated provided it passes its vote. In this way SW would be sandwiched between the deployment of an as yet inactive 2-4-8 and its activation.
+It's essentially a combination of a variant of 2-4-8 (necessarily a hard fork) and a soft fork version of Segregated Witness. The advantage of the 2-4-8 hard fork is that it is very simple and can be coded and merged very quickly, probably in January. The SW soft fork on the other hand can probably be activated sooner. Therefore I'd like to see the hard fork coded, merged and deployed first, then the soft fork merged and deployed and then the hard fork activated provided it passes its vote. In this way SW would be sandwiched between the deployment of an as yet inactive 2-4-8 and its activation.
 
 It does not preclude further hard forks at any time, either before or after the proposed compromise hard fork, although it is specifically intended to discourage *contentious* hard forks. Non-contentious hard forks that become possible in the light of experience gained are only to be welcomed of course.
 
@@ -35,5 +35,5 @@ Hard fork with gradual growth:
 
 Soft fork Segregated Witness:
 * Deployed as already suggested by the developers, but modified to be aware of the upcoming hard fork.
-* Limited to 1MB for the witness section for the first two years after deployment to take miner concerns into account and allow time for research into give weak blocks and IBLT research
+* Limited to 1MB for the witness section for the first two years after deployment to take miner concerns into account and allow time for research into weak blocks and IBLT.
 * Witness section size set to 1x or 2x the size of the main section of the block after two years.
